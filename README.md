@@ -1,8 +1,13 @@
 # python-tools-docker
+
 Docker images with the preinstalled python modules
 
 | This repository is currently work-in-progress |
 | --------------------------------------------- |
+
+The images are based on the [Python images](https://hub.docker.com/_/python) available on the Docker Hub. Builds are automated by the Docker Hub and will also be executed if there is an update to the Python base image.
+
+For now the images are based on the `slim` tags of the base image.
 
 ## Docker repositories
 
